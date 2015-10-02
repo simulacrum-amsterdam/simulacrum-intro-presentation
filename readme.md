@@ -54,7 +54,7 @@ At the start of the presentation I hit the topic of iterative or agile developme
 
 To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete.
 
-Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped took quite a bit of time, as it is very different in character to the things I have done before. 
+Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely the least of them, as it is very different in character to the things I have done before. …. …. ….
 
 ## Discussion / Feedback
 
@@ -77,7 +77,3 @@ But online there are also these to consider:
 3) What do you guys think of the current design? (even though typography is still absent)
 
 4) What kind of features do you want added, that are not already in the issue list?
-
-
-
-
