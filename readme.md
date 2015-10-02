@@ -50,11 +50,11 @@ The big advantage of Wordpress is that the administrative interface is largely s
 
 ## Planning
 
-Please not that I am exploring as I go just as you guys are. You guys might not know what could be build, but neither do I. I might have a year of programming skills, but knowing how to set up online academic publishing properly is another thing altogether. So right now I am just teasing your and my own imagination. I want to present what can actually be decided upon without making it too technical. 
+At the start of the presentation I hit the topic of iterative or agile development. I have no illusions about the current product. Many features are still missing. The design is also far from optimal yet. While I am not absolutely horrible at it, I am dependent on designers for assets. You can think proper icons, fonts and the like. I really want to talk to designers a bit more about that. However talking to you about the actual goals and content strategy seemed sensible to do first. I have a nice list of things I still want to add though, and that is what iterative development is all about. Small versions that are always deployed, tested and discussed. Instead of sequential development it is a much more transparant and collaborative process. 
 
-At the start of the presentation I hit the topic of iterative or agile development. I have no illusions about the current product. Many features are still missing. The design is also far from optimal yet, I really want to talk to designers a bit more about that. However talking to you about the actual goals and content strategy seemed sensible to do first. I have a nice list of things I still want to add though, and that is what iterative development is all about. Small versions that are always deployed, tested and discussed. Instead of sequential development it is a much more transparant and collaborative process.
+To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete.
 
-To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete. 
+Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped took quite a bit of time, as it is very different in character to the things I have done before. 
 
 ## Discussion / Feedback
 
@@ -67,15 +67,16 @@ Simulacrum already addresses these:
 
 But online there are also these to consider:
 - Abstracts
-- Navigation
+- Navigation (instead of offline pagination)
 - Editorial information
-- Licensing -> Think Creative Commons
+- Other types of licensing
+- Digital Object Identification (DOI)
 
 2) Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
 
 3) What do you guys think of the current design? (even though typography is still absent)
 
-4) What kind of feature do you want added, that are not already in the issue list?
+4) What kind of features do you want added, that are not already in the issue list?
 
 
 
