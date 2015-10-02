@@ -4,7 +4,7 @@
 
 Most of you already know me, but for the ones that do not, or have forgotten, as I always do. I am Robert-Jan, I study Art History with a love voor Digital Humanities and programming. Just before the vacation Frederike asked me wether I could technologically improve the website so that it would run better on phones and maintenance would be easier. I accepted the proposition, as it is very much connected to the reason why I combine the two different fields. I believe humanities can learn a lot from tech and the same goes the other way around. For myself it would help me professionalize my processes and provide  me with something presentable if done well. Yet, as always happens with digital products, it did not end there. When we talked it trough it became apparent that Simulacrum would get a new design and you would like that to be connected to the website. This made it a full blown assignment and the presentation last week was the starting shot. 
 
-## Contextualization
+## Process
 
 Before I show you what I currently have I want to make clear that web development is not first and foremost technological. Most of it is loaded with values, it is ’waarde-betrokken’. Seemingly technical decisions could just as easy be done differently to an entirely different result. There are also many processes surrounding it like strategizing on different levels, project management and collaboration, testing and maintenance and of course the design and building itself. It is important to realize that a website is a means to an end, not an end in itself. Today I mostly want to talk to you about that. What goals are to be achieved with the website, what needs to be considered for a proper strategy, and how that translates to actual features and design.
 
@@ -20,7 +20,7 @@ The current iteration is enough however to see what potential there is in this s
 
 ## Goals and content strategy
 
-Lets talk a bit more about strategy. I have the feeling that the desire to build a website arose more or less in the form of ‘we cannot ignore the web!’. A web presence was somehow felt as needed. Thus it was probably decided that a little blog, some news, and also contact and some redactional information should be on it. In my current assignment this content is what should be carried over to the new site. Yet I would question this content to some extend, why specifically these items, and how does that content connect to your audiences? To take that even one step further, how does it connect to your overal content strategy or even Simulacrums business model? 
+Lets talk a bit more about strategy. I have the feeling that the desire to build a website arose more or less in the form of ‘we cannot ignore the web!’. A web presence was somehow felt as needed. Thus it was probably decided that a little blog, some news, and also contact and some redactional information should be on it. In my current assignment it is that content is that should be carried over to the new site. Yet I would question this content to some extend. Why specifically these items, and how does that content connect to your audiences? To take that even one step further, how does it connect to Simulacrums overal content strategy or even its business model? 
 
 ### Audience
 
@@ -28,7 +28,7 @@ Lets first get a clearer picture of your audiences. I would say that there are t
 
 ### Audience and Digital 
 
-With my current assignment I was a bit in conflict I noticed. The previous site tried to cater to the first two of these audiences at the same time, while not providing enough to satisfy either. A lot of information that would be of interest to business contacts and writers is missing and at the same time there is not much content for readers to consume and it positioned in a camped manner. I would like to argue that it might be wise to split the site up into two parts. One for readers and one for writers or other business interests. The third group, Simulacrum itself, are catered by automatically by employing Wordpress content management system. Although even there many improvements are possible. 
+With my current assignment I was a bit in conflict I noticed. The previous site tried to cater to the first two of these audiences at the same time, while not providing enough to satisfy either. A lot of information that would be of interest to business contacts and writers is missing and at the same time there is not much content for readers to consume and it positioned in a camped manner. I would like to argue that it might be wise to split the site up into two parts. One for readers and one for writers or other business interests. The third group, Simulacrum itself, is catered by automatically through employing Wordpress content management system. Although even there many improvements are possible. 
 
 ## Views
 
@@ -36,9 +36,9 @@ Lets go into the views in a bit more detail.
 
 ### The reader
 
-To dive into the view provided to readers, we have to explore how Simulacrums paper content strategy can find expression into the site. Right now the content that is being produced for the online blog is thematic and periodical, just like the magazine. There is no content, aside from the news, that is not attached to an issue. If this is so, it seems logical to find a way to attach the content to the issues in some way. So instead of opting for a normal continuous post flow, I attached all the posts to their issues, and present those to the readers. The current issue is a prominent position, and the list goes down a few issues. Older issues can be found on the archival page. There is also a business aspect to this. The content online should confront readers with the fact that this it is expensive to create and subscriptions are well appreciated. I like the gift model of content dissemination; where full content is offered at the cost of a moralizing message up front. Every post has got a message up top reminding people of the possibility of subscribing. As I do not want to get into member registration is small and innocuous, but its there for people to see. 
+To dive into the view provided to readers, we have to explore how Simulacrums paper content strategy can find expression into the site. Right now the content that is being produced for the online blog is thematic and periodical, just like the magazine. There is no content, aside from the news, that is not attached to an issue. If this is so, it seems logical to find a way to attach the content to the issues in some way. So instead of opting for a normal continuous post flow, I attached all the posts to their issues, and present those to the readers. The current issue is a prominent position, and the list goes down a few issues. Older issues can be found on the archival page. There is also a business aspect to this. The content online should confront readers with the fact that this it is expensive to create and subscriptions are well appreciated. I like the gift model of content dissemination; where full content is offered at the cost of a moralizing message up front. Every post has got a message up top reminding people of the possibility of subscribing. As I do not want to get into member registration the presence is small and innocuous, but its there for people to see. 
 
-What I still have to find a solution for is how to deal with footnotes and the like. As Simulacrum aims to be scientific it should try to follow academic conventions as much as possible. What those conventions are on the web is up for debate however. The Open Access movement has some experience in the matter, these guys try to free academic publishing from evil corporations like Reed / Elsevier. I must honestly say, I am still new to the business. There are quite some problems to consider. For instance how do you cite digital objects? As page numbers are irrelevant, how do you narrow your citation down, paragraphs? Next, how does one know that the digital object that the reader reads is actually the same as the one the citing author read? As articles can always be changed online, versioning is a real problem. Thirdly there are serious problems for archival. Libraries can easily store paper, digital objects is another matter however. Last but not least there are the legal issues; do the licenses allow to syndicate or for individuals to share content? There are good solutions for all these problems, but it will need to be thought about thoroughly. Especially if Simulacrum wants to go all in with it in the future. For now I have opted to keep it rather simple. Everything is just plain text or HTML in the post view. 
+What I still have to find a solution for is how to deal with footnotes and the like. As Simulacrum aims to be scientific it should try to follow academic conventions as much as possible. What those conventions are on the web is up for debate however. The Open Access movement has some experience in the matter, these guys try to free academic publishing from evil corporations like Reed / Elsevier. I must honestly say, I am still new to the business. There are quite some problems to consider. For instance how do you cite digital objects? As page numbers are irrelevant, how do you narrow your citation down, paragraphs? Next, how does one ensure that the digital object that the reader reads is actually the same as the one the citing author reads? As articles can always be changed online, versioning is a real problem. Thirdly there are serious problems for archival. Libraries can easily store paper, digital objects is another matter however. Last but not least there are the legal issues; do the licenses allow to syndicate or for individuals to share content? There are good solutions for all these problems, but it will need to be thought about thoroughly. Especially if Simulacrum wants to go all in with it in the future. For now I have opted to keep it rather simple. Everything is just plain text or HTML in the post view. 
 
 ### Writer / Business interest
 
@@ -54,21 +54,28 @@ Please not that I am exploring as I go just as you guys are. You guys might not 
 
 At the start of the presentation I hit the topic of iterative or agile development. I have no illusions about the current product. Many features are still missing. The design is also far from optimal yet, I really want to talk to designers a bit more about that. However talking to you about the actual goals and content strategy seemed sensible to do first. I have a nice list of things I still want to add though, and that is what iterative development is all about. Small versions that are always deployed, tested and discussed. Instead of sequential development it is a much more transparant and collaborative process.
 
-To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. But doing this close to the actual files you can keep the discussion concrete. 
+To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete. 
 
 ## Discussion / Feedback
 
+1. The first question I struggled with is how far we should take Simulacrums scientific identity. Going full in means that at some points we will have to sacrifice a bit of design an UX. To give a little illustration of this is how the magazine First Monday presents is articles. They address all the issues concerned with in online academic publishing within a single view. These include:
 
+Simulacrum already addresses these:
+- Author information
+- References
+- Footnotes
 
+But online there are also these to consider:
+- Abstracts
+- Navigation
+- Editorial information
+- Licensing -> Think Creative Commons
 
+2. Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
 
+3. What do you guys think of the current design? (even though typography is still absent)
 
-
-
-
-
-
-
+4. What kind of feature do you want added, that are not already in the issue list?
 
 
 
