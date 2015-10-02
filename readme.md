@@ -58,7 +58,7 @@ To that end I want to show you a tool that is quite important for iterative deve
 
 ## Discussion / Feedback
 
-1. The first question I struggled with is how far we should take Simulacrums scientific identity. Going full in means that at some points we will have to sacrifice a bit of design an UX. To give a little illustration of this is how the magazine First Monday presents is articles. They address all the issues concerned with in online academic publishing within a single view. These include:
+1) The first question I struggled with is how far we should take Simulacrums scientific identity. Going full in means that at some points we will have to sacrifice a bit of design an UX. To give a little illustration of this is how the magazine First Monday presents is articles. They address all the issues concerned with in online academic publishing within a single view. These include:
 
 Simulacrum already addresses these:
 - Author information
@@ -71,11 +71,11 @@ But online there are also these to consider:
 - Editorial information
 - Licensing -> Think Creative Commons
 
-2. Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
+2) Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
 
-3. What do you guys think of the current design? (even though typography is still absent)
+3) What do you guys think of the current design? (even though typography is still absent)
 
-4. What kind of feature do you want added, that are not already in the issue list?
+4) What kind of feature do you want added, that are not already in the issue list?
 
 
 
