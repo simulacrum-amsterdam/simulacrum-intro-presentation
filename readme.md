@@ -38,15 +38,13 @@ Lets go into the views in a bit more detail.
 
 To dive into the view provided to readers, we have to explore how Simulacrums paper content strategy can find expression into the site. Right now the content that is being produced for the online blog is thematic and periodical, just like the magazine. There is no content, aside from the news, that is not attached to an issue. If this is so, it seems logical to find a way to attach the content to the issues in some way. So instead of opting for a normal continuous post flow, I attached all the posts to their issues, and present those to the readers. The current issue is a prominent position, and the list goes down a few issues. Older issues can be found on the archival page. There is also a business aspect to this. The content online should confront readers with the fact that this it is expensive to create and subscriptions are well appreciated. I like the gift model of content dissemination; where full content is offered at the cost of a moralizing message up front. Every post has got a message up top reminding people of the possibility of subscribing. As I do not want to get into member registration the presence is small and innocuous, but its there for people to see. 
 
-What I still have to find a solution for is how to deal with footnotes and the like. As Simulacrum aims to be scientific it should try to follow academic conventions as much as possible. What those conventions are on the web is up for debate however. The Open Access movement has some experience in the matter, these guys try to free academic publishing from evil corporations like Reed / Elsevier. I must honestly say, I am still new to the business. There are quite some problems to consider. For instance how do you cite digital objects? As page numbers are irrelevant, how do you narrow your citation down, paragraphs? Next, how does one ensure that the digital object that the reader reads is actually the same as the one the citing author reads? As articles can always be changed online, versioning is a real problem. Thirdly there are serious problems for archival. Libraries can easily store paper, digital objects is another matter however. Last but not least there are the legal issues; do the licenses allow to syndicate or for individuals to share content? There are good solutions for all these problems, but it will need to be thought about thoroughly. Especially if Simulacrum wants to go all in with it in the future. For now I have opted to keep it rather simple. Everything is just plain text or HTML in the post view. 
-
 ### Writer / Business interest
 
 To dive into the view for writers / business interests, there are several thing that I believe the website should address. A nice thing to start with it author documentation. Many scientific magazines have an elaborate documentation on how content should be delivered, the Rijksmuseum Bulletin has eight pages of demands, and you probably have something similar. We could streamline this in the web interface, along with providing a way to submit. That could be a simple mail address or something more elaborate. Secondly I think its important to state again what Simulacrums scientific process really is about. How is the peer review done? Even if it is done by students, people should be able to decide on their own what its authority is. Thirdly it might be interesting to present the upcoming issue as a call for papers. Fourth, there is of course the Simulacrum strategy and goals. Last but not the least, the people involved should get a place. Also because of its nature as a student magazine where changes in editors happen quickly, it might also be nice to provide previous editors a place there too. As a side note I also display the news over as it is relevant to both groups. 
 
 ### Editorial
 
-The big advantage of Wordpress is that the administrative interface is largely self explanatory. There are quite a bit of additions that we could make to it though. Digital infrastructure could play a larger part in the editorial workflow for instance. A good illustration of what could be is the OJS editorial workflow. While this system is complete menace technically, they did think quite well about this and the role a digital system could play in this. Secondly from a UX and business point of view we should also consider using measurement tools to see what content is consumed and base decisions on it accordingly. 
+The big advantage of Wordpress is that the administrative interface is largely self explanatory. There are quite a bit of additions that we could make to it though. Digital infrastructure could play a larger part in the editorial workflow for instance. A good illustration of what could be is the OJS editorial workflow. While this system is complete menace technically, they did think quite well about te role a digital system could play in this. For now I will not go into this much further, I will get back to this topic at the end of the presentation. Secondly from a UX and business point of view we should also consider using measurement tools to see what content is consumed and base decisions on it accordingly. 
 
 ## Planning
 
@@ -54,28 +52,31 @@ At the start of the presentation I hit the topic of iterative or agile developme
 
 To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is github.com. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to how the fine print to how it works, the sugar of git comes at the cost of a steep learning curve. You can look at it a dropbox on steroids. All you need to know is that the work is stored there in the organization simulacrum-amsterdam. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete.
 
-Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely the least of them, as it is very different in character to the things I have done before. …. …. ….
+Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely the least of them, as it is very different in character to the things I have done before. Setting a specific date for delivery might be problematic. 
 
 ## Discussion / Feedback
 
-1) The first question I struggled with is how far we should take Simulacrums scientific identity. Going full in means that at some points we will have to sacrifice a bit of design an UX. To give a little illustration of this is how the magazine First Monday presents is articles. They address all the issues concerned with in online academic publishing within a single view. These include:
+1) The first question I struggled with is how far we should take Simulacrums scientific identity. Going full in means that we might have to sacrifice at certain points. Even more problematic it might impact the content management system we use. The current theme uses Wordpress, the biggest and easiest of the big three (Joomla / Drupal are the other two). Yet for academic publishing Open Journal Systems is suggested. It is estimated that 6000 - 8000 Journals use it. These stats are quite high as the amount of current academic journals is estimated to be in the low tens of thousands. Its technologically much more complex though, which will slow me down immensely. But being indexed by Google Scholar is the reward, although its not the only way to be indexed by them. To give a little illustration of this system is the magazine First Monday. It uses a rather plain version of OJS. Its also interesting because they address all the issues concerned with in online academic publishing in a single view. These include:
 
 Simulacrum already addresses these:
-- Author information
+- Author Information
 - References
 - Footnotes
 
 But online there are also these to consider:
+- Metadata
 - Abstracts
 - Navigation (instead of offline pagination)
-- Editorial information
-- Other types of licensing
+- Versioning / Editorial Information
+- Licensing
 - Digital Object Identification (DOI)
 
-(please note that the last is probably impossible to achieve)
+It is important to note however… Not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we could do so perfectly. Attaining a Digital Object Identifier for instance might very well be impossible. However we could attempt to get as close as possible. This is why I ask the question about how far we should take this.
 
-2) Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
+You should also take into consideration that while I have the technical expertise and aptitude to do this, its highly unlikely that you will be able replace me when that times arrives. I will not be able to maintain this site forever. This will leave later editorial teams with a complex system that not even an experienced programmer is likely to be familiar with. Its hard for me to make this choice, my own skill set makes me biased in this matter.
 
-3) What do you guys think of the current design? (even though typography is still absent)
+2) What do you people think of the translation of the content strategy to the website? Are the choices I have made in structuring the content have made are appropriate to the audiences? Are the audiences I suggested correct for that matter?
 
-4) What kind of features do you want added, that are not already in the issue list?
+3) What do you guys think of the current design? Is it going in the right direction? (even though things are still absent, like typography)
+
+4) What features do you miss that are not already in the issue list?
