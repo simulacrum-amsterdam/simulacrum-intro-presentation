@@ -72,6 +72,8 @@ But online there are also these to consider:
 - Other types of licensing
 - Digital Object Identification (DOI)
 
+(please note that the last is probably impossible to achieve)
+
 2) Translation of the content strategy to the website. Are we in agreement as to the audiences and the choices I have made as to structure in which the content will be presented?
 
 3) What do you guys think of the current design? (even though typography is still absent)
