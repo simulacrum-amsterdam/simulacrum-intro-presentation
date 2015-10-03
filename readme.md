@@ -64,22 +64,9 @@ Setting a final date has already proven harder for me than I expected. I noticed
 
 ## Discussion / Feedback
 
-1) The first question I struggled with is how far we should take Simulacrums scientific identity. If we go full scientific we might need to sacrifice at certain points. Even more problematic it might impact the content management system we use. The current theme uses WordPress, the biggest and easiest of the big three (Joomla / Drupal are the other two). Yet for academic publishing Open Journal Systems is suggested. It is estimated that 6000 - 8000 Journals use it. These statistics are quite high as the amount of current academic journals is estimated to be in the low tens of thousands. It is technologically much more complex though, which will slow me down immensely. But it really thinks out the editorial workflow quite well, and being indexed by Google Scholar is also a reward. The magazine ‘First Monday’ gives a good illustration of this system. It uses a rather plain version of OJS. It is also interesting because they address all the issues with online academic publishing in a single view. These include:
+1) The first question I struggled with is how far we should take Simulacrums scientific identity. To start I would like to say that not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we can so properly. Many systems that authenticate content are simply really expensive, might be beyond my ability to provide for and is definitely beyond Simulacrums ability to manage properly. A thing like Google Scholar optimization for instance might be possible; but there is significant extra work involved. Getting our hands on Digital Object Identifiers however is certainly out of the question. 
 
-Simulacrum already addresses these:
-- Author Information
-- References
-- Footnotes
-
-But online there are also these to consider:
-- Metadata
-- Abstracts
-- Navigation (instead of offline pagination)
-- Versioning / Editorial Information
-- Licensing
-- Digital Object Identification (DOI)
-
-It is important to note however… Not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we could do so perfectly. Attaining a Digital Object Identifier for instance might very well be impossible. However we could attempt to get as close as possible. This is why I ask the question how far we should take this.
+It might even mean changing of content management system. To keep up scientific appearances I will be bloating the WordPress datamodel to do things it was not optimized for. Yet WordPress is simple to use and easily maintained. If we are going for the real thing on the other hand, then it might be interesting to take a look at Open Journal Systems. This system is specialized at journal publishing. It also has a really well thought out editorial workflow. However its community is nearly non-existent next to WordPress, and this finds translation in the product. Yet here I would like to point out again that keeping such a site running properly was not even a task that the AUP fancied.
 
 2) What do you people think of the translation of the content strategy to the website? Are the choices I have made in structuring the content appropriate to the audiences? Are the audiences I suggested correct for that matter? -> Do you have a document containing the paper strategy now?
 
