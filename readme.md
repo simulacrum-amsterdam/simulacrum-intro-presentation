@@ -56,21 +56,35 @@ The big advantage of WordPress is that the administrative interface is largely s
 
 ## Planning - next steps
 
+### Iterative Development
+
 At the start of the presentation I hit the topic of iterative or agile development. I have no illusions about the current product. Many features are still missing. The design is far from optimal yet. While I am not absolutely horrible at it, I am dependent on designers for assets. That means that I need them for proper icons, fonts and the like. I really want to talk to them a bit more about that. However talking to you about the actual goals and content strategy seemed sensible to do first. I have a nice list of things I still want to add though, and that is what iterative development is all about. Small versions that are always deployed, tested and discussed. Instead of sequential development it is a much more transparant and collaborative process. 
 
+### Git and Github
+
 To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is Github. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to know all the details, the sugar of git comes at the cost of a steep learning curve. You can imagine it as Dropbox on steroids. All you need to know is that the work is stored in the organization ‘simulacrum-amsterdam’. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete.
+
+### Final Date
 
 Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely not the least of them, as it is very different in character to the things I have done before. I have to be honest, depending on how far we take this setting a specific delivery date might be problematic. What we can do however is set a next meeting and discuss the state of the project then. 
 
 ## Discussion / Feedback
 
-1) The first question I struggled with is how far we should take Simulacrums scientific identity. To start I would like to say that not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we can so properly. Many systems that authenticate content are simply really expensive, might be beyond my ability to provide for and is definitely beyond Simulacrums ability to manage properly. A thing like Google Scholar optimization for instance might be possible; but there is significant extra work involved. Getting our hands on Digital Object Identifiers however is certainly out of the question. 
+### 1) Scientific nature
+
+The first question I struggled with is how far we should take Simulacrums scientific identity. To start I would like to say that not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we can so properly. Many systems that authenticate content are simply really expensive, might be beyond my ability to provide for and is definitely beyond Simulacrums ability to manage properly. A thing like Google Scholar optimization for instance might be possible; but there is significant extra work involved. Getting our hands on Digital Object Identifiers however is certainly out of the question. 
 
 It might even mean changing of content management system. To keep up scientific appearances I will be bloating the WordPress datamodel to do things it was not optimized for. Yet WordPress is simple to use and easily maintained. If we are going for the real thing on the other hand, then it might be interesting to take a look at Open Journal Systems. This system is specialized at journal publishing. It also has a really well thought out editorial workflow. However its community is nearly non-existent next to WordPress, and this finds translation in the product. Yet here I would like to point out again that keeping such a site running properly was not even a task that the AUP fancied.
 
-2) What do you people think of the translation of the content strategy to the website? Are the choices I have made in structuring the content appropriate to the audiences? Are the audiences I suggested correct for that matter? -> Do you have a document containing the paper strategy now?
+### 2) Content Strategy
 
-3) What do you guys think of the current design? Is it going in the right direction? (even though many things are still absent, like typography)
+What do you people think of the translation of the content strategy to the website? Are the choices I have made in structuring the content appropriate to the audiences? Are the audiences I suggested correct for that matter? -> Do you have a document containing the paper strategy now?
+
+### 3) Design
+
+What do you guys think of the current design? Is it going in the right direction? (even though many things are still absent, like typography)
+
+### 4) Desired Features
 
 4) What features do you miss that are not already in the issue list?
 
