@@ -36,7 +36,7 @@ Lets first get a clearer picture of your audiences. I would say that there are t
 
 ### Audience and Digital 
 
-The previous site tried to cater to the first two of these audiences at the same time, while not providing enough to satisfy either. A lot of information that would be of interest to business contacts and writers is missing and at the same time there is not much content for readers to consume. I would like to argue that it might be wise to split the site up into two parts. One for readers and one for writers or other business interests. The third group, Simulacrum itself, is catered by automatically through employing WordPress content management system. Although even there many improvements are possible. 
+The previous site tried to cater to the first two of these audiences at the same time, while not providing enough to satisfy either. When I started looking at authoritative online journals I noticed that a lot of information that would be of interest to business contacts and writers is missing and at the same time there is not much content for readers to consume. I would like to argue that it might be wise to split the site up into two parts. One for readers and one for writers or other business interests. The third group, Simulacrum itself, is catered by automatically through employing WordPress content management system. Although even there many improvements are possible. 
 
 ## Views
 
