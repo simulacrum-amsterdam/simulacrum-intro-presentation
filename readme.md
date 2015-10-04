@@ -16,11 +16,11 @@ I would also like to impress upon you that websites are never really done, nor a
 
 ## Product - Version 0.0.1
 
-Currently I have made a low fidelity deployment of WordPress with a Simulacrum theme. By low fidelity I mean that a lot of stuff is not done. What I did look into is first and foremost a lot of technological stuff which I will not bother you with. Secondly I did quite a bit of User Experience Design (UX) like navigation and responsiveness. Thirdly and connected to the UX part I did content strategizing. Wrapping my head around this really cost me a lot of time and I made quite a few mistakes in the process. 
+Currently I have made a low fidelity deployment of WordPress with a Simulacrum theme. By low fidelity I mean that a lot of stuff is not done. First and foremost I looked into a lot of technological stuff which I will not bother you with. Secondly I did quite a bit of User Experience Design (UX) like navigation and responsiveness. Thirdly and connected to the UX part I did content strategizing. Wrapping my head around this really cost me a lot of time and I made quite a few mistakes in the process. 
 
 ### Design-driven vs Content-driven
 
-To explain this, while I had started by dropping many easily changed and yet time consuming design features, I had still taken largely a design driven approach. My starting point was the paper design. I started to realize why this is considered horrible in the world of web development. By focussing on the design the content had to bend to it. Sometimes the content was cramped into spaces that were much too small. Even worse the content itself did not get any thought. It should be the tech and design that bends to the content and the goal that is set, not the other way around. So I started to focus on the goals and content first. What those goals should be however confused the hell out of me. Scientific publishing online seems to be an entirely different thing than main stream web development, but I will get to that later on.
+To explain this, while I had started by dropping many easily changed and yet time consuming design features, I had still largely taken a design driven approach. My starting point was the paper design. I started to realize why this is considered horrible in the world of web development. By focussing on the design the content had to bend to it. Sometimes the content was cramped into spaces that were much too small. Even worse the content itself did not get any thought. It should be the tech and design that bends to the content and the goal that is set, not the other way around. So I started to focus on the goals and content first. What those goals should be however confused the hell out of me. Scientific publishing online seems to be an entirely different thing than main stream web development, but I will get to that later on.
 
 ### Live iteration: URL’s and passwords
 
@@ -44,7 +44,11 @@ Lets go into the views in a bit more detail.
 
 ### The reader
 
-To dive into the view provided to readers, we have to explore how Simulacrums paper content strategy can find expression into the site. Right now the content that is being produced for the online blog is thematic and periodical, just like the magazine. There is no content, aside from the news, that is not attached to an issue. If this is so, it seems logical to find a way to attach the content to the issues in some way. So instead of opting for a normal continuous post flow, I attached all the posts to their issues, and present those to the readers. The current issue is a prominent position, and the list goes down a few issues. Older issues can be found on the archival page. There is also a business aspect to this. The content online should confront readers with the fact that this it is expensive to create and subscriptions are well appreciated. I like the gift model of content dissemination; where full content is offered at the cost of a moralizing message up front. Every post has got a message on top reminding people of the possibility to subscribe. As I do not want to get into member registration the presence is small and innocuous, but its there for people to see. 
+To dive into the view provided to readers, we have to explore how Simulacrums paper content strategy can find expression into the site. Right now the content that is being produced for the online blog is thematic and periodical, just like the magazine. There is no content, aside from the news, that is not attached to an issue. If this is so, it seems logical to find a way to attach the content to the issues in some way. So instead of opting for a normal continuous post flow, I attached all the posts to their issues, and present those to the readers. The current issue is a prominent position, and the list goes down a few issues. Older issues can be found on the archival page. 
+
+There is also a business aspect to these views. The content online should confront readers with the fact that the content takes a lot of work to create and subscriptions are well appreciated. I like the gift model of content dissemination; where full content is offered at the cost of a moralizing message up front. Every post has got a message on top reminding people of the possibility to subscribe. As I do not want to get into member registration the presence it will be small and innocuous, but its there for people to see. 
+
+If we go into the post view in a bit more detail you will notice the presence of a sidebar. There is quite a bit of extra information that needs to be on the same page as a post. There are scientific and legel reasons for this. While many flout these, Simulacrum should follow them, especially because they are operating under a scientific banner. Author information speaks for itself as you derive a large part of your authority from the authors. The second item deals with version information. A user should be able to know wether he is reading the same content as a citing author read. Thirdly license information and this is very important. Simulacrum does a lot with modern art and while Simulacrum might have permission to publish photographs itself, Facebook and Pinterest do not. The appearance of share buttons should be dependent on the license. You do not want to be seen as stimulating copyright infringement. There is also an underlying machine aspect to this; I can put machine readable tags in the code to prevent pinning on Pinterest for instance. Lastly there should be export options for personal use. 
 
 ### Writer / Business interest
 
@@ -64,21 +68,38 @@ At the start of the presentation I hit the topic of iterative or agile developme
 
 To that end I want to show you a tool that is quite important for iterative development. Its called git and a popular hosting platform for it is Github. Git is a version control system, and allows people to share files and collaborate properly. This project already contains 42.000 files without me doing much of anything to get at that insane number. You can imagine sharing a few edits in a few files can become a mess rather quickly. Especially if you work in a team when someone else has also made a few edits in the same or other files. You do not need to know all the details, the sugar of git comes at the cost of a steep learning curve. You can imagine it as Dropbox on steroids. All you need to know is that the work is stored in the organization ‘simulacrum-amsterdam’. You can find this presentation there too. Also the documentation and links to the staging environment are there. Next to that I use the collaborative environment to plan my work, reflect upon it and to discuss it. Doing this close to the actual files help to keep the discussion concrete.
 
-### Final Date
+### Deployment Date
 
-Setting a final date has already proven harder for me than I expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely not the least of them, as it is very different in character to the things I have done before. I have to be honest, depending on how far we take this setting a specific delivery date might be problematic. What we can do however is set a next meeting and discuss the state of the project then. 
+Setting a final date has already proven harder for me than I myself expected. I noticed there are a lot of unexpected corners that cost quite a bit of time to deal with. Strategizing about how the product should be shaped is definitely not the least of them, as it is very different in character to the things I have done before. Depending on the amount of features we want to build and the quality we want to achieve in the deployment date will shift. I would also like to talk with the designers a bit so their idea’s can be implemented better. I skimmed over that for the time being. I would say the smartest thing would be to set a next meeting and discuss the state of the project then, and keep collaborating in the meantime. When the project has reached at state where everyone involved believes it is acceptable, we should deploy.
 
 ## Discussion / Feedback
 
-### 1) Scientific nature
+### 1) Scientific Appearance
 
-The first question I struggled with is how far we should take Simulacrums scientific identity. To start I would like to say that not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we can so properly. Many systems that authenticate content are simply really expensive, might be beyond my ability to provide for and is definitely beyond Simulacrums ability to manage properly. A thing like Google Scholar optimization for instance might be possible; but there is significant extra work involved. Getting our hands on Digital Object Identifiers however is certainly out of the question. 
+The first question I struggled with is how far we should take Simulacrums scientific identity. To start I would like to say that not even the Amsterdam University Press handles its own online publishing. It might be an illusion to think that we can so properly. Many systems that authenticate content are simply really expensive, might be beyond my ability to provide for and are definitely beyond Simulacrums ability to manage properly. A thing like Google Scholar optimization for instance might be possible; but there is significant extra work involved. Getting our hands on Digital Object Identifiers however is certainly out of the question.
 
-It might even mean changing of content management system. To keep up scientific appearances I will be bloating the WordPress datamodel to do things it was not optimized for. Yet WordPress is simple to use and easily maintained. If we are going for the real thing on the other hand, then it might be interesting to take a look at Open Journal Systems. This system is specialized at journal publishing. It also has a really well thought out editorial workflow. However its community is nearly non-existent next to WordPress, and this finds translation in the product. Yet here I would like to point out again that keeping such a site running properly was not even a task that the AUP fancied.
+It might even mean changing of content management system. To keep up scientific appearances I will be bloating the WordPress datamodel to do things it was not optimized for. Yet WordPress is simple to use and easily maintained. If we are going for the real thing on the other hand, then it might be interesting to take a look at Open Journal Systems. This system is specialized at journal publishing. It also has a really well thought out editorial workflow. However its community is nearly non-existent next to WordPress, and this finds translation into the product. Here I would like to point out again that keeping such a site running properly was not even a task that the AUP fancied.
+
+It is interesting to consider what being scientific really means. Does Simulacrum merely appear to be scientific, or is it scientific? To be a bit post-modernistic about this; is being scientific not only about appearing to be scientific? If this is so… how do you appear scientific? How do you do so on the web? 
+
+1) Researcher:
+- Author information
+- Footnotes
+- References
+- Abstracts
+- Quality
+
+2) Publisher
+- Peer Review -> Insuring quality
+- Digital Object identification (DOI)
+- Archival / distribution
+- Versioning
+- Licensing
+- Typesetting / Styling
 
 ### 2) Content Strategy
 
-What do you people think of the translation of the content strategy to the website? Are the choices I have made in structuring the content appropriate to the audiences? Are the audiences I suggested correct for that matter? -> Do you have a document containing the paper strategy now?
+What do you think of the translation of the content strategy to the website? Are the choices I have made in structuring the content appropriate to the audiences? Are the audiences I suggested correct for that matter? -> Do you have a document containing the paper strategy?
 
 ### 3) Design
 
